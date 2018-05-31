@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #f85c37;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background: #000000;
+  border-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #8B0000;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFAFA;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  background: url(../img/IMG_0092.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 600px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+
+.w {
+  padding-top: 15px;
+}
+
+.w h4 {
+  font-size: 25px;
+}
+
+.w h5 {
+  font-size: 19px;
+}
+
+
+#wth {
+  background: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#wth h4 {
+  font-size: 40px;
+  color: #C0C0C0;
+}
+#wth h5 {
+  font-size: 22px;
+  color: #C0C0C0;
+}
+
+#ius {
+  background: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#ius h4 {
+  font-size: 40px;
+  color: #C0C0C0;
+}
+#ius h5 {
+  font-size: 22px;
+  color: #C0C0C0;
+}
+
+
+#sess {
+background: url(../img/IMG_0310.jpg) no-repeat center top;
+padding-top: 1px;
+padding-bottom: 1px;
+text-align: center;
+}
+
+#sess h1 {
+  text-decoration:underline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 60px;
+  font-weight: 15;
+  letter-spacing: 2px;
+}
+
+#sched1 {
+padding-top: 1px;
+padding-bottom: 1px;
+text-align: center;
+}
+
+#sched1 h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: 15;
+  letter-spacing: 2px;
+}
+
+#sched1 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: 15;
+  letter-spacing: 2px;
+}
+
+#sched1 a {
+	  text-decoration:underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 60px;
+  font-weight: 15;
+  letter-spacing: 2px;
+}
+
+#con {
+    background: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#con h4 {
+  font-size: 40px;
+  color: #C0C0C0;
+}
+
+#con h5 {
+  font-size: 22px;
+  color: #C0C0C0;
+}
+
+#con h6 {
+  font-size: 20px;
+  color: #C0C0C0;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    padding-top: 20px;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

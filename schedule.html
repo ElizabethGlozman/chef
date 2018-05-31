@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Адаптирование под устройство-->
+  <title>Запись на мастер-классы Chef</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body background="IMG_0317.jpg">
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">  <!--Кнопка "меню" для мобильных устройств -->
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="project.html">Chef</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="project.html">На главную</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div id="sched1">
+  <div class="row centered">
+  <a>Мастер-классы</a>
+  </div>
+  <div id="course">
+  <div class="row centered">
+          <div class="col-md-4">
+	   <h1>•</h1>
+	   <h1>Итальянская кухня</h1>
+	   <br>
+	   <h2>Понедельник - 18:00</h2>
+          </div>
+    <div class="col-md-4">
+	   <h1>•</h1>
+	   <h1>Мексиканская кухня</h1>
+	   <br>
+	   <h2>Вторник - 19:00</h2>
+    </div>
+    <div class="col-md-4">
+	   <h1>•</h1>
+	   <h1>Японская кухня</h1>
+	   <br>
+	   <h2>Среда - 18:00</h2>
+    </div>
+</div>
+  <br>
+</div>
+<br>
+   <div class="row centered">
+  <a>Запись</a>
+  <br><br><br>
+  <form class="contact_form" action="contact-form.php" method="post">
+	<p>
+            <label for="name"><h4>Имя:</h4></label>
+            <input type="text"  name="name" placeholder="Введите ваше имя" required />
+    </p>
+    <p>
+            <label for="email"><h4>Email:</h4></label>
+            <input type="email" name="email" placeholder="Введите электронный адрес" required />
+            <span class="form_hint">Правильный формат "name@something.com"</span>
+    </p>
+    <p>
+            <label for="message"><h4>Направление:</h4></label>
+            <textarea name="message" cols="40" rows="1" required ></textarea>
+    </p>
+	<p>
+		<label for="bezspama"><h4>3+3=:</h4></label>
+		<input name="bezspama" type="text" required />
+    </p>
+	<br>
+	<p>
+            <button class="submit" type="submit">Отправить сообщение</button>
+    </p>
+</form>
+<br><br>
+  </div>
+</div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
